@@ -25,7 +25,7 @@ function generatePassword() {
     var confirmNumbers = confirm("Do you want numbers?");
     var confirmSpecial = confirm("Do you want special characters?");
 
-    // Includes everything asked for in password
+    // Includes everything asked for in password - concats each chosen confirm to one large container
     if (confirmUpper) {
       password += passCriteria.concat(arrayUpperChar);
       console.log(password)

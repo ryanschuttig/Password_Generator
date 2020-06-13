@@ -18,7 +18,7 @@ function generatePassword() {
   // Asks user how many characters in password
   var numOfChar = prompt("How many characters do you want?");
   // If character input less than 8 or more than 128, ask again
-  if (numOfChar > 7 && numOfChar < 127) {
+  if (numOfChar > 7 && numOfChar < 129) {
     // Asks user for each type of character they want
     var confirmUpper = confirm("Do you want uppercase letters?");
     var confirmLower = confirm("Do you want lowercase letters?");
